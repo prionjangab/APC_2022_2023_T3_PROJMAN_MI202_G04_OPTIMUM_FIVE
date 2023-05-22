@@ -1,0 +1,91 @@
+  
+				/*Header
+		@font-face {
+			font-family: 'Ubuntu';
+			src: url(Ubuntu-Bold.ttf);
+		}
+		
+		.welhead {
+			margin: 0;
+			color: rgb(0, 0, 0);
+		}
+		.mainhead{
+			max-width: 800px;
+			text-align: center;
+			margin: auto;
+		}
+		
+		.mainhead h1{
+			font-size: 50px;
+			font-family: 'Ubuntu', sans-serif;
+		}
+  		*/
+		  
+		.item_background{
+			background-color: rgba(236, 236, 236, 0.658);
+			box-shadow: 2px 2px 4px rgba(0,0,0,0.4);
+			border-radius: 15px;
+			margin-left: 5%;
+			margin-right: 5%;
+		}
+		.notify_item{
+			display: flex;
+			align-items: center;
+			padding: 10px 0;
+			border-bottom: 1px solid #ffa600;
+			margin-left: 2%;
+			margin-right: 2%;
+			
+		}
+		
+		.notify_item:last-child{
+			border-bottom: 0px;
+		}
+		
+		.notify_item .notify_img{
+			margin-right: 15px;
+		}
+		
+		.notify_item .notify_info p{
+			margin-bottom: 5px;
+		}
+		
+		.notify_item .notify_info p span{
+			color: #3b38c9;
+			margin-left: 5px;
+		}
+		
+		.notify_item .notify_info .notify_time{
+			color: #646464;
+			font-size: 12px;
+		}
+
+		/*Landon Welcome*/
+		@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+		#headerwel {
+		background-image: linear-gradient(rgba(0, 5, 24, 0.8), rgba(0, 3, 15, 0.8)), url("../imgweb/bg.jpg");
+		background-position: center;
+		background-size: cover;
+		width: 100%;
+		height: 20vh;
+		position: relative;
+		}
+		:root {
+		--main-color: #ffae00;
+		}
+		.theme-text {
+		color: var(--main-color) !important;
+		
+		}
+		.middlewel {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		height: 20vh;
+		width: 100%;
+		text-shadow: 2px 4px 6px rgb(0, 0, 0);
+		}
+		.middlewel h1 {
+		font-size: 70px;
+		}

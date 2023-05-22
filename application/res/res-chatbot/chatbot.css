@@ -1,0 +1,135 @@
+
+            /*Hover*/
+        .contact-form-page{
+            height: 50px;
+            width: 50px;
+            display: block;
+            border-radius: 50%;
+            position: absolute;
+            bottom: 42px;
+            right: 42px;
+            overflow: hidden;
+            -webkit-transition: all 1s;
+            -moz-transition: all 1s;
+            -o-transition: all 1s;
+            transition: all 1s;
+            background: #ffa600;
+            position: fixed;
+        }
+        .show-profile{
+            background: #ffa600;
+            height: 90%;
+            display: block;
+            width: 30%;
+            bottom: 0;
+            right: 0;
+            position: absolute;
+            border-radius: 4%;
+            padding-bottom: 30px;
+            position: fixed;
+            margin-right: 5px;
+            z-index: 4;
+        }
+        .top-btn{
+            position: absolute;
+            top: 15px;
+            right: 15px;
+            background: #0b2785;
+            padding: 15px 0;
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            
+        }
+        .top-btn:hover{
+             background: #2248c5;
+        }
+        .buttom-btn{
+            position: absolute;
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            background: #ffa600;
+            width: 75px;
+            height: 75px;
+            border-radius: 50%;
+        }
+        .buttom-btn i{
+            font-size: 30px;
+        }
+        .buttom-btn:hover{
+            background: #f1bf63;
+            color: #fff
+        }
+        /*
+        Button Opacity
+        */
+        .top-btn-show{
+            opacity: 1 !important;
+            -webkit-transition: all 0.1s;
+            -moz-transition: all 0.1s;
+            -o-transition: all 0.1s;
+            transition: all 0.1s;
+            z-index: 4;
+        }
+        .buttom-btn-hide{
+            opacity: 0 !important;
+            -webkit-transition: all 0.1s;
+            -moz-transition: all 0.1s;
+            -o-transition: all 0.1s;
+            transition: all 0.1s;
+            z-index: 4;
+        }
+        /* GITHUB SOURCE STYLE  */
+        .github-source{
+            display:inline-block;
+            color:#000;
+            margin:20px;
+            position: relative;
+            z-index:999999;
+        }
+        .github-source i{
+            font-size:50px;
+            color:#fff
+        }
+
+        /*Chat*/
+        .chatbot-name {
+            color: rgb(0, 0, 0);
+            font-size: 26px;
+            padding: 0;
+            margin-top: 10px;
+            font-weight: 800;
+        }
+        
+        .avatar {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            border: 2px solid #004eb4;
+            padding: 2px;
+            flex: none;
+        }
+        
+        input:focus {
+            outline: 0px !important;
+            box-shadow: none !important;
+        }
+        
+        .container-chat {
+            padding-left: var(--bs-gutter-x,-0.25rem);
+            padding-right: var(--bs-gutter-x,-0.25rem);
+        
+        }
+        
+        .card-text {
+            border: 2px solid #ddd;
+            border-radius: 8px;
+        }
+        
+    
+        #button{
+            color: #004eb4;
+        }
+        
+        
